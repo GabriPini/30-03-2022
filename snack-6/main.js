@@ -3,8 +3,10 @@ dove N è un numero indicato dall’utente. */
 
 //faccio scegliere un numero all utente 
 let number = parseInt(prompt('inserisci un numero'));
-// inposto il 3 come esponente per calcolare il cubo
-let exponent = 3;
 
-//eseguo l'operazione
-console.log( Math.pow(number, exponent));
+ // eseguo il calcolo e stampo in console i risulatati
+for (let i = 1; i <= number; i++) {
+      
+    let numbersCubes = parseInt(Math.pow(i ,3))
+      console.log(numbersCubes);
+    }
