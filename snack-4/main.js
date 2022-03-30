@@ -6,12 +6,10 @@ let invitedGuests;
 let guestName;
 let check = false
 
-
 invitedGuests = ["Gabriele", "Fabio", "Gianluca", "Davide", "Dragan", ];
  
 guestName = prompt("Dichiara il tuo nome") 
 
-   
     for (var i = 0; i < invitedGuests.length ; i++ ){
         if (  guestName == invitedGuests[i]){
             check = true   

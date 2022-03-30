@@ -13,15 +13,12 @@
  }
 
  if (firstNumber > secondNumber){
-   
     console.log(`il primo numero da te inserito è il maggiore  ${firstNumber}`) 
 
-} else if ( firstNumber < secondNumber){
-    
+} else if ( firstNumber < secondNumber){ 
     console.log(`il secondo numero da te inserito è il maggiore  ${secondNumber}`)
 
 } else {
-    
     console.log('sono due numeri uguali')
 
 }

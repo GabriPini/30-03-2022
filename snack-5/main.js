@@ -7,7 +7,6 @@ se è dispari inseriscilo nell’array.
 let numbers;
 let userNumbers;
 
-
 numbers = [ ];
  
 for (let i = 0; i < 6; i++) {
