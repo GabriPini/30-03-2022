@@ -8,5 +8,3 @@ let exponent = 3;
 
 //eseguo l'operazione
 console.log( Math.pow(number, exponent));
-
-    
