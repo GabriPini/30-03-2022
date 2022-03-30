@@ -35,7 +35,7 @@ Il software stampa prima la parola più corta, poi la parola più lunga.
 
 */
 
-const firstWord= prompt('Inserisci una parola');
+/* const firstWord= prompt('Inserisci una parola');
 
 const secondWord = prompt('Inserisci un altra parola');
 
@@ -49,4 +49,4 @@ if (firstWord.length > secondWord.length){
 } else {
    console.log(`le parole sono della stessa lunghezza ${firstWord} ${secondWord}`)
 
-}
+} */
