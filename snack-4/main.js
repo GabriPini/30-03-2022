@@ -14,15 +14,12 @@ guestName = prompt("Dichiara il tuo nome")
    
     for (var i = 0; i < invitedGuests.length ; i++ ){
         if (  guestName == invitedGuests[i]){
-            check = true
-            
+            check = true   
         }
     }
     if ( check ){
         // If true
-        console.log('Puoi entrare , sei sulla lista')
-     
-        
+        console.log('Puoi entrare , sei sulla lista') 
     } else {
         // If false
         console.log('Sparisci non sei invitato')

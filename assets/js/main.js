@@ -56,56 +56,73 @@ SNACK 3
 Il software deve chiedere per 10 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti.
 
-*/
+ */
+/* let result, userNumber;
 
-/* const firstNumber= parseInt(prompt('Inserisci un numero'));
- if (isNaN(firstNumber)) {
-   alert('😱 Devi inserire un numero')
- }
+result = 0;
 
- const secondNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(secondNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
+for (let i = 0; i < 10; i++) {
+    userNumber = parseInt(prompt('inserisci un numero'));
+    if (isNaN(userNumber)) {
+        alert('😱 Devi inserire un numero ')
+      }
+     
+    result = result + userNumber;
+}
 
- const thirdNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(thirdNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
+console.log(result)
+ */
 
- const fourthNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(fourthNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
 
- const fifthNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(fifthNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
 
- const sixNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(sixNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
+/* SNACK 4
+In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+ */
+/* 
+let invitedGuests;
+let guestName;
+let check = false
 
- const sevenNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(sevenNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
 
- const eightNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(eightNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
+invitedGuests = ["Gabriele", "Fabio", "Gianluca", "Davide", "Dragan", ];
+ 
+guestName = prompt("Dichiara il tuo nome") 
 
- const nineNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(nineNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
+   
+    for (var i = 0; i < invitedGuests.length ; i++ ){
+        if (  guestName == invitedGuests[i]){
+            check = true   
+        }
+    }
+    if ( check ){
+        // If true
+        console.log('Puoi entrare , sei sulla lista') 
+    } else {
+        // If false
+        console.log('Sparisci non sei invitato')
+    }
+     
+    */
 
- const tenNumber = parseInt(prompt('Inserisci un numero'));
- if (isNaN(tenNumber)) {
-   alert('😱 Devi inserire un numero ')
- }
 
-console.log(firstNumber + secondNumber + thirdNumber + fourthNumber + fifthNumber + sixNumber +  sevenNumber + eightNumber + nineNumber + tenNumber) */
+    /* SNACK 5
+Crea un array vuoto.
+Chiedi per 6 volte all’utente di inserire un numero,
+se è dispari inseriscilo nell’array.
+ */
+
+/* let numbers;
+let userNumbers;
+
+
+numbers = [ ];
+ 
+for (let i = 0; i < 6; i++) {
+    userNumbers = parseInt(prompt('inserisci un numero'));
+    if ( userNumbers % 2 != 0){
+        numbers.push(userNumbers)
+    }
+     
+}
+console.log(numbers)
+ */
