@@ -4,9 +4,11 @@ dove N è un numero indicato dall’utente. */
 //faccio scegliere un numero all utente 
 let number = parseInt(prompt('inserisci un numero'));
 
+let cubo;
+
  // eseguo il calcolo e stampo in console i risulatati
-for (let i = 1; i <= number; i++) {
+for (let i = 0; i <= number; i++) {
       
-    let numbersCubes = parseInt(Math.pow(i ,3))
-      console.log(numbersCubes);
+  cubo = Math.pow(i ,3)
+      console.log(cubo);
     }
